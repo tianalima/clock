@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&display=Roboto+Mono&display=swap" 
+    rel="stylesheet">
+    <link rel="shortcut icon" href="./assets/clock.png" type="image/x-icon">
+    <title>Clock</title>
+</head>
+
+<body>
+    
+    
+    <div class="box">
+        <div class="over-box"></div>
+        <button class="stopwatch-toggle">
+            <img class="stopwatch-icon" src="./assets/stopwatch.png" alt="Stopwatch">
+        </button>   
+        <div class="analog-clock">
+            <span class="twelve-pointer"></span>
+            <span class="one-pointer"></span>
+            <span class="two-pointer"></span>
+            <span class="three-pointer"></span>
+            <span class="four-pointer"></span>
+            <span class="five-pointer"></span>
+            <span class="six-pointer"></span>
+            <span class="seven-pointer"></span>
+            <span class="eight-pointer"></span>
+            <span class="nine-pointer"></span>
+            <span class="ten-pointer"></span>
+            <span class="eleven-pointer"></span>
+            <div class="arrow-circle"></div>
+            <div class="arrow-hours"></div>
+            <div class="arrow-minutes"></div>
+            <div class="arrow-seconds"></div>
+        </div>
+
+        <div class="stopwatch">
+            <div class="stopwatch-buttons">
+                <button class="start">Start</button>
+                <button class="stop">Stop</button>
+                <button class="reset">Reset</button>
+            </div>
+            <div class="stw">00:00:00</div>
+        </div>
+
+        <div class="date">
+            <span class="number" id="day"></span>
+            <span class="number" id="month"></span>
+            <span class="number" id="year"></span>
+        </div>
+    </div>
+<footer>
+    <div class="footer-wrap">
+    <a class="footer-link" href="https://codepen.io/Prasanna_In/pen/zYELEBp" target="_blank">inspired by @Prasanna_In</a>
+</div>
+</footer>
+ <script src="script.js"></script>
+</body>
+</html>
